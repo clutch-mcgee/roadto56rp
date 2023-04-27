@@ -122,6 +122,13 @@ scripted_diplomatic_actions = {
 			}
 		}
 
+		selectable = {
+			custom_trigger_tooltip = {
+				tootip = EDA_PUPPET_INDEPENDENCE_TOOLTIP
+				always = yes
+			}
+		}
+
      can_be_sent = { always = yes }
         complete_effect = {
 			ROOT = {
